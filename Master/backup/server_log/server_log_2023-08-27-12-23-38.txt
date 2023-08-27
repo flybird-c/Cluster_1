@@ -1,10 +1,10 @@
 [00:00:00]: PersistRootStorage is now /data//DoNotStarveTogether/Cluster_1/Master/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 570012
-[00:00:00]: Current time: Sun Aug 27 15:02:08 2023
+[00:00:00]: Current time: Sun Aug 27 12:19:15 2023
 
 [00:00:00]: System Name: Linux
-[00:00:00]: Host Name: 5013f73f9e93
+[00:00:00]: Host Name: 3354a6cdbffe
 [00:00:00]: Release(Kernel) Version: 3.10.0-1160.90.1.el7.x86_64
 [00:00:00]: Kernel Build Timestamp: #1 SMP Thu May 4 15:21:22 UTC 2023
 [00:00:00]: Machine Arch: x86_64
@@ -15,17 +15,17 @@
 [00:00:00]: Command Line Arguments: -skip_update_server_mods -persistent_storage_root /data -ugc_directory /data/ugc -cluster Cluster_1 -shard Master 
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: ProfileIndex:4.18
-[00:00:00]: Mounting file system databundles/klump.zip successful.
-[00:00:00]: THREAD - started 'GAClient' (4130310976)
+[00:00:00]: ProfileIndex:10.14
+[00:00:00]: THREAD - started 'GAClient' (4130417472)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
-[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
-[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
-[00:00:00]: Mounting file system databundles/images.zip successful.
-[00:00:00]: Mounting file system databundles/scripts.zip successful.
-[00:00:00]: [Steam] SteamGameServer_Init(10999, 12346)
+[00:00:01]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:01]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:01]: Mounting file system databundles/images.zip successful.
+[00:00:01]: Mounting file system databundles/scripts.zip successful.
+[00:00:01]: [Steam] SteamGameServer_Init(10999, 12346)
 [00:00:01]: [Steam] SteamGameServer_Init success
 [00:00:01]: [Connect] PendingConnection::Reset(true)
 [00:00:01]: Platform: 1
@@ -73,10 +73,10 @@
 [00:00:05]: 	Load FE: done	
 [00:00:05]: Check for write access: TRUE
 [00:00:05]: Check for read access: TRUE
-[00:00:05]: Available disk space for save files: 29089 MB
+[00:00:05]: Available disk space for save files: 29526 MB
 [00:00:05]: ModIndex: Load sequence finished successfully.	
 [00:00:05]: Reset() returning
-[00:00:05]: THREAD - started 'FilesExistAsyncThread' (4038753088)
+[00:00:05]: THREAD - started 'FilesExistAsyncThread' (4038245184)
 [00:00:05]: FilesExistAsyncThread started (22442 files)...
 [00:00:06]: [200] Account Communication Success (6)
 [00:00:06]: Cached userid (null) saved to /data//DoNotStarveTogether/Cluster_1/Master/save/cached_userid
@@ -109,7 +109,7 @@
 [00:00:06]: Not applying level data overrides.	
 [00:00:06]: Found a worldgen override file with these contents:	
 [00:00:06]: 	K: 	override_enabled	 V: 	true	
-[00:00:06]: 	K: 	overrides	 V: 	table: 0xfc68f40	
+[00:00:06]: 	K: 	overrides	 V: 	table: 0xee9c560	
 [00:00:06]: 		K: 	alternatehunt	 V: 	default	
 [00:00:06]: 		K: 	angrybees	 V: 	default	
 [00:00:06]: 		K: 	antliontribute	 V: 	default	
@@ -251,15 +251,15 @@
 [00:00:07]: 	Unload FE	
 [00:00:07]: 	Unload FE done	
 [00:00:09]: 	LOAD BE	
-[00:00:22]: 	LOAD BE: done	
-[00:00:22]: Begin Session: D04B90C0942C65DB
-[00:00:22]: saving to server_temp/server_save	
-[00:00:22]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
-[00:00:22]: Loading 19 new character(s)	
-[00:00:24]: Total 19 character(s) loaded	
-[00:00:24]: Loading Nav Grid	
-[00:00:24]: World generated on build 570012 with save version: 5.142, using seed: 1693138709	
-[00:00:24]: OVERRIDE: setting	resettime	to	none	
-[00:00:24]: OVERRIDE: setting	basicresource_regrowth	to	always	
-[00:00:24]: OVERRIDE: setting	portalresurection	to	always	
-[00:00:24]: OVERRIDE: setting	ghostsanitydrain	to	none	
+[00:00:21]: 	LOAD BE: done	
+[00:00:21]: Begin Session: D04B90C0942C65DB
+[00:00:21]: saving to server_temp/server_save	
+[00:00:21]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:21]: Loading 19 new character(s)	
+[00:00:22]: Total 19 character(s) loaded	
+[00:00:22]: Loading Nav Grid	
+[00:00:22]: World generated on build 570012 with save version: 5.142, using seed: 1693138709	
+[00:00:22]: OVERRIDE: setting	resettime	to	none	
+[00:00:22]: OVERRIDE: setting	basicresource_regrowth	to	always	
+[00:00:22]: OVERRIDE: setting	portalresurection	to	always	
+[00:00:22]: OVERRIDE: setting	ghostsanitydrain	to	none	

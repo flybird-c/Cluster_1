@@ -1,10 +1,10 @@
 [00:00:00]: PersistRootStorage is now /data//DoNotStarveTogether/Cluster_1/Master/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 570012
-[00:00:00]: Current time: Sun Aug 27 15:02:08 2023
+[00:00:00]: Current time: Sun Aug 27 12:24:28 2023
 
 [00:00:00]: System Name: Linux
-[00:00:00]: Host Name: 5013f73f9e93
+[00:00:00]: Host Name: 3354a6cdbffe
 [00:00:00]: Release(Kernel) Version: 3.10.0-1160.90.1.el7.x86_64
 [00:00:00]: Kernel Build Timestamp: #1 SMP Thu May 4 15:21:22 UTC 2023
 [00:00:00]: Machine Arch: x86_64
@@ -15,9 +15,9 @@
 [00:00:00]: Command Line Arguments: -skip_update_server_mods -persistent_storage_root /data -ugc_directory /data/ugc -cluster Cluster_1 -shard Master 
 [00:00:00]: Initializing distribution platform
 [00:00:00]: ....Done
-[00:00:00]: ProfileIndex:4.18
+[00:00:00]: ProfileIndex:3.87
 [00:00:00]: Mounting file system databundles/klump.zip successful.
-[00:00:00]: THREAD - started 'GAClient' (4130310976)
+[00:00:00]: THREAD - started 'GAClient' (4129872704)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
@@ -26,39 +26,39 @@
 [00:00:00]: Mounting file system databundles/images.zip successful.
 [00:00:00]: Mounting file system databundles/scripts.zip successful.
 [00:00:00]: [Steam] SteamGameServer_Init(10999, 12346)
-[00:00:01]: [Steam] SteamGameServer_Init success
-[00:00:01]: [Connect] PendingConnection::Reset(true)
-[00:00:01]: Platform: 1
-[00:00:01]: Network tick rate: U=15(2), D=0
-[00:00:01]: Network tick rate: U=15(2), D=0
-[00:00:01]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/blocklist.txt (Success)
-[00:00:01]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/adminlist.txt (Success)
-[00:00:01]: OnLoadUserIdList: /data//DoNotStarveTogether/Cluster_1/whitelist.txt (Success)
-[00:00:01]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
-[00:00:01]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
-[00:00:01]: cGame::InitializeOnMainThread
-[00:00:01]: Renderer initialize: Okay
-[00:00:01]: AnimManager initialize: Okay
-[00:00:01]: Buffers initialize: Okay
-[00:00:01]: cDontStarveGame::DoGameSpecificInitialize()
-[00:00:01]: GameSpecific initialize: Okay
-[00:00:01]: cGame::StartPlaying
-[00:00:01]: THREAD - started 'StreamInput' (4075793216)
-[00:00:01]: AppVersion::GetArchitecture() x32
-[00:00:01]: LOADING LUA
-[00:00:01]: DoLuaFile scripts/main.lua
-[00:00:01]: DoLuaFile loading buffer scripts/main.lua
-[00:00:02]:   taskgrouplist:	default	Together	
-[00:00:02]:   taskgrouplist:	classic	Classic	
-[00:00:02]:   taskgrouplist:	cave_default	Underground	
-[00:00:02]:   taskgrouplist:	lavaarena_taskset	The Forge	
-[00:00:02]:   taskgrouplist:	quagmire_taskset	The Gorge	
-[00:00:02]: Running main.lua
+[00:00:00]: [Steam] SteamGameServer_Init success
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Platform: 1
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/blocklist.txt (Success)
+[00:00:00]: OnLoadPermissionList: /data//DoNotStarveTogether/Cluster_1/adminlist.txt (Success)
+[00:00:00]: OnLoadUserIdList: /data//DoNotStarveTogether/Cluster_1/whitelist.txt (Success)
+[00:00:00]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:00]: Token retrieved from: /data//DoNotStarveTogether/Cluster_1/cluster_token.txt
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
+[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:00]: GameSpecific initialize: Okay
+[00:00:00]: cGame::StartPlaying
+[00:00:00]: THREAD - started 'StreamInput' (4075760448)
+[00:00:00]: AppVersion::GetArchitecture() x32
+[00:00:00]: LOADING LUA
+[00:00:00]: DoLuaFile scripts/main.lua
+[00:00:00]: DoLuaFile loading buffer scripts/main.lua
+[00:00:01]:   taskgrouplist:	default	Together	
+[00:00:01]:   taskgrouplist:	classic	Classic	
+[00:00:01]:   taskgrouplist:	cave_default	Underground	
+[00:00:01]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:01]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:01]: Running main.lua
 	
-[00:00:02]: loaded modindex	
-[00:00:02]: ModIndex: Beginning normal load sequence for dedicated server.
+[00:00:01]: loaded modindex	
+[00:00:01]: ModIndex: Beginning normal load sequence for dedicated server.
 	
-[00:00:02]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:01]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
 [00:00:03]: LOADING LUA SUCCESS
 [00:00:03]: PlayerDeaths could not load morgue	
 [00:00:03]: PlayerHistory could not load player_history	
@@ -73,10 +73,10 @@
 [00:00:05]: 	Load FE: done	
 [00:00:05]: Check for write access: TRUE
 [00:00:05]: Check for read access: TRUE
-[00:00:05]: Available disk space for save files: 29089 MB
+[00:00:05]: Available disk space for save files: 29523 MB
 [00:00:05]: ModIndex: Load sequence finished successfully.	
 [00:00:05]: Reset() returning
-[00:00:05]: THREAD - started 'FilesExistAsyncThread' (4038753088)
+[00:00:05]: THREAD - started 'FilesExistAsyncThread' (4037704512)
 [00:00:05]: FilesExistAsyncThread started (22442 files)...
 [00:00:06]: [200] Account Communication Success (6)
 [00:00:06]: Cached userid (null) saved to /data//DoNotStarveTogether/Cluster_1/Master/save/cached_userid
@@ -109,7 +109,7 @@
 [00:00:06]: Not applying level data overrides.	
 [00:00:06]: Found a worldgen override file with these contents:	
 [00:00:06]: 	K: 	override_enabled	 V: 	true	
-[00:00:06]: 	K: 	overrides	 V: 	table: 0xfc68f40	
+[00:00:06]: 	K: 	overrides	 V: 	table: 0xfb9cf60	
 [00:00:06]: 		K: 	alternatehunt	 V: 	default	
 [00:00:06]: 		K: 	angrybees	 V: 	default	
 [00:00:06]: 		K: 	antliontribute	 V: 	default	
@@ -252,10 +252,10 @@
 [00:00:07]: 	Unload FE done	
 [00:00:09]: 	LOAD BE	
 [00:00:22]: 	LOAD BE: done	
-[00:00:22]: Begin Session: D04B90C0942C65DB
-[00:00:22]: saving to server_temp/server_save	
-[00:00:22]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
-[00:00:22]: Loading 19 new character(s)	
+[00:00:23]: Begin Session: D04B90C0942C65DB
+[00:00:23]: saving to server_temp/server_save	
+[00:00:23]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:23]: Loading 19 new character(s)	
 [00:00:24]: Total 19 character(s) loaded	
 [00:00:24]: Loading Nav Grid	
 [00:00:24]: World generated on build 570012 with save version: 5.142, using seed: 1693138709	

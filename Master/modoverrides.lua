@@ -18,8 +18,6 @@ return {
       ["MemSpikeFixworkshop-1462043974"]="default",
       ["MemSpikeFixworkshop-1467214795"]="default",
       ["MemSpikeFixworkshop-1505270912"]="default",
-      ["MemSpikeFixworkshop-1530801499"]="default",
-      ["MemSpikeFixworkshop-1535658505"]="default",
       ["MemSpikeFixworkshop-1582864428"]="default",
       ["MemSpikeFixworkshop-1651623054"]="default",
       ["MemSpikeFixworkshop-1699194522"]="default",
@@ -34,12 +32,12 @@ return {
       ["MemSpikeFixworkshop-1991746508"]="default",
       ["MemSpikeFixworkshop-2048852282"]="default",
       ["MemSpikeFixworkshop-2076787638"]="default",
+      ["MemSpikeFixworkshop-2119742489"]="default",
       ["MemSpikeFixworkshop-2287303119"]="default",
       ["MemSpikeFixworkshop-2302837868"]="default",
       ["MemSpikeFixworkshop-2303894106"]="default",
       ["MemSpikeFixworkshop-2373346252"]="default",
       ["MemSpikeFixworkshop-2505341606"]="default",
-      ["MemSpikeFixworkshop-2559637840"]="default",
       ["MemSpikeFixworkshop-2640834455"]="default",
       ["MemSpikeFixworkshop-2771698903"]="default",
       ["MemSpikeFixworkshop-3018652965"]="default",
@@ -47,29 +45,20 @@ return {
       ["MemSpikeFixworkshop-358749986"]="default",
       ["MemSpikeFixworkshop-362175979"]="default",
       ["MemSpikeFixworkshop-367546858"]="default",
-      ["MemSpikeFixworkshop-374550642"]="default",
       ["MemSpikeFixworkshop-375850593"]="default",
       ["MemSpikeFixworkshop-376333686"]="default",
       ["MemSpikeFixworkshop-378160973"]="default",
       ["MemSpikeFixworkshop-382177939"]="default",
-      ["MemSpikeFixworkshop-457071756"]="default",
-      ["MemSpikeFixworkshop-458587300"]="default",
-      ["MemSpikeFixworkshop-462434129"]="default",
       ["MemSpikeFixworkshop-463740026"]="default",
       ["MemSpikeFixworkshop-466732225"]="default",
       ["MemSpikeFixworkshop-501385076"]="default",
-      ["MemSpikeFixworkshop-569043634"]="default",
       ["MemSpikeFixworkshop-572538624"]="default",
       ["MemSpikeFixworkshop-599498678"]="default",
-      ["MemSpikeFixworkshop-604761020"]="default",
       ["MemSpikeFixworkshop-625415718"]="default",
-      ["MemSpikeFixworkshop-661253977"]="default",
       ["MemSpikeFixworkshop-666155465"]="default",
       ["MemSpikeFixworkshop-797304209"]="default",
       ["MemSpikeFixworkshop-831523966"]="default",
       ["MemSpikeFixworkshop-850518166"]="default",
-      ["MemSpikeFixworkshop-882901958"]="default",
-      ["MemSpikeFixworkshop-938670116"]="default",
       ["MemSpikeFixworkshop-949808360"]="default",
       craftinghighlight=false 
     },
@@ -108,10 +97,6 @@ return {
     },
     enabled=true 
   },
-  ["workshop-1530801499"]={
-    configuration_options={ ArrowsignEnable=false, HungerCost=1, Ownership=false, SanityCost=1 },
-    enabled=true 
-  },
   ["workshop-1751811434"]={
     configuration_options={
       [""]=0,
@@ -122,7 +107,21 @@ return {
     },
     enabled=true 
   },
+  ["workshop-1854353610"]={
+    configuration_options={
+      AutoCook=false,
+      CookingSpeed=false,
+      Cookpots=true,
+      Other_item=false,
+      Professionalchef=false 
+    },
+    enabled=true 
+  },
   ["workshop-2048852282"]={ configuration_options={  }, enabled=true },
+  ["workshop-2119742489"]={
+    configuration_options={ ArrowsignEnable=false, HungerCost=1, Ownership=false, SanityCost=1 },
+    enabled=true 
+  },
   ["workshop-2287303119"]={
     configuration_options={
       [""]=0,
@@ -226,7 +225,7 @@ return {
       MOD_RESTART_CD_BONUS=0,
       MOD_RESTART_CD_KILL=1,
       MOD_RESTART_CD_MAX=0,
-      MOD_RESTART_CD_RESTART=0,
+      MOD_RESTART_CD_RESTART=2,
       MOD_RESTART_CD_RESURRECT=1,
       MOD_RESTART_FORCE_DROP_MODE=0,
       MOD_RESTART_IGNORING_ADMIN=true,
@@ -250,6 +249,7 @@ return {
     },
     enabled=true 
   },
+  ["workshop-466732225"]={ configuration_options={  }, enabled=true },
   ["workshop-831523966"]={ configuration_options={ soul_stack=20, stack_size=999 }, enabled=true },
   ["workshop-850518166"]={
     configuration_options={ fast_eat="On", fast_pick_build_harvest_heal="On" },

@@ -31,3 +31,7 @@ ServerModSetup("2287303119")
 ServerModSetup("1301033176")
 --  重生
 ServerModSetup("1301033176")
+--  海难api
+ServerModSetup("1378549454")
+--  海难
+ServerModSetup("1467214795")

@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Atlas>
-	<Texture filename="ia_skins.tex" />
-	<Elements>
-		<Element name="ms_double_umbrellahat_legacy.tex" u1="0.001" u2="0.499" v1="0.501" v2="0.999"/>
-		<Element name="ms_hat_gas_legacy.tex" u1="0.501" u2="0.999" v1="0.501" v2="0.999" />
-		<Element name="ms_palmleaf_hut_cawnival.tex" u1="0.001" u2="0.499" v1="0.001" v2="0.499" />
-	</Elements>
-</Atlas>
